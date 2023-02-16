@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>r.s.p</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body>
+        <h1 id="result">ROCK PAPER SCISSORS</h1>
+        <hr>
+        <div id="div-container">
+            <button disabled class="rock" id="rock">✊🏿</button>  
+            <button disabled class="paper" id="paper">✋🏿</button>
+            <button disabled class="scissors" id="scissors">✌🏿</button>
+        </div>
+        <form action="" >
+        <div>
+            <div class="pCont">
+                <div class="container">
+                    <h2 id="player-name" > </h2> 
+                    <span id="player-picked"></span>
+                    <h3 id="player-result"></h3>
+                </div>
+                <input class="input-con" id="player-name-input" type="name" placeholder="Player name"> 
+                <button class="myButton" id="submit-button" >Submit</button>
+                
+
+                <div class="pCont">
+                    <h2>MACHINE <span id="cpu-picked"></span></h2>
+                    <h3 id="cpu-result">0</h3>
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+
+        <div id="highScore-con" class="highScoreCon">
+            
+        </div>
+       
+        </form>
+        <button class="myButton" id="resetScores">Delete high scores</button>
+        
+
+        <script type="module" src="js/storage.js" defer></script>
+    </body>
+    </html>
